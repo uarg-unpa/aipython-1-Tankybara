@@ -1,0 +1,5 @@
+print("1a. Las máquinas me sorprenden con mucha frecuencia.")
+print("1b. ")
+print("1c. Let it roll, baby, roll.")
+print("1d. Ocurrio un error de sintaxis")
+print('1e. Una computadora puede ser llamada "inteligente" si logra engañar a una persona haciéndole creer que es un humano.')
