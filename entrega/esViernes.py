@@ -1,1 +1,1 @@
-print("Menu del dia\n Bife a la riojana: $5200")
+print("Menu del dia\n Bife a la riojana: $5200   ")
