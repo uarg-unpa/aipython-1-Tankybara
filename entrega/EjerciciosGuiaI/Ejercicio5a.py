@@ -1,0 +1,5 @@
+print("Ingrese nombre, apellido y edad")
+nombre=str(input())
+apellido=str(input())
+edad=int(input())
+print(f"Ser creativo, {nombre} {apellido} {edad}")

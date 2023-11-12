@@ -1,0 +1,9 @@
+miNombre: string
+miApellido: string
+miEdad: entero
+miAltura: entero
+numeroVuelo: entero
+temperaturaDelAmbiente: flotante
+salarioMensual: flotante
+gameOver: booleano
+esPar: booleano
