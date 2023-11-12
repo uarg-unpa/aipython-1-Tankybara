@@ -1,1 +1,5 @@
 print("asdaasasdasd")
+rlist = list(range(6))
+print(rlist)
+rlist.reverse()
+print(rlist)
