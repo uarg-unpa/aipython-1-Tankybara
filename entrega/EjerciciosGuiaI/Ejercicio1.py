@@ -9,7 +9,12 @@ print("Edad: 21")
 print("1g. Nombre:","Maximiliano","Apellido:","Alvarez","Edad:","21",sep="_")
 print("1h. Calle: Belgrano\t Numero: 325\t Codigo Postal: 9400")
 print("1i. Calle: Belgrano\n Numero: 325\n Codigo Postal: 9400")
-print("1k. -----")
+#1j
+texto="Feliz\n\tPrimavera\n\t\t\t2023"
+print(f"{texto}")
+#ik
+print("Solo podemos ver poco del futuro",end=',')
+print(" pero lo suficiente para darnos cuenta de que hay mucho que hacer")
 print("    *")
 print("   * *")
 print("  *   *")
