@@ -32,10 +32,30 @@
 #num3=int(input("Ingrese un ultimo numero: "))
 #print(f"{mayorDeTres(num1,num2,num3)}")
 
-def sumaLista(v):
-    suma=0
-    for i in range(len(v)):
-        suma=suma+v[i]
-    return suma
-lista=[1,2,3,4,5,6,7,8,9,10]
-print(f"{sumaLista(lista)}")
+#def sumaLista(v):
+#    suma=0
+#    for i in range(len(v)):
+#        suma=suma+v[i]
+#    return suma
+#lista=[1,2,3,4,5,6,7,8,9,10]
+#print(f"{sumaLista(lista)}")
+
+def buscarSimbolo(simbolo, palabra):
+    for letra in palabra:
+        if letra == simbolo:
+            return True
+    return False
+
+def invertirPalabra(palabra):
+    return palabra[::-1]
+
+def main():
+    word = str(input("Ingrese su palabra: "))
+    symbol = input("Ingrese su simbolo a buscar en la palabra: ")
+    auten = buscarSimbolo(symbol, word)
+    if auten:
+        print("Se ha encontrado el simbolo.")
+    else:
+        print("No se encontro el simbolo. ")
+    print(invertirPalabra(word))
+main()
